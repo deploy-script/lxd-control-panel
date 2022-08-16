@@ -74,7 +74,7 @@ install_project_git() {
 # Install lxd
 install_lxd() {
     # remove apt based LXD
-    sudo apt-get -y remove lxd lxd-client
+    sudo apt-get -y remove lxd
     #
     sudo apt-get -y install zfsutils-linux
     #
